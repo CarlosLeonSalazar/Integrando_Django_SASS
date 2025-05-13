@@ -1,0 +1,18 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+body {
+  background-color: white;
+}
+
+h1 {
+
+  font-size: 2rem;
+  color: v.$primary-color;
+}
+.home {
+  @include m.center-flex;
+  height: 50vh;
+  font-family: v.$font-stack;
+  color: v.$primary-color;
+}

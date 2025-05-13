@@ -1,0 +1,19 @@
+@use 'base/variables' as v;
+
+
+.navbar {
+  background-color: v.$primary-color;
+  color: white;
+  padding: 1rem;
+
+  a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 1rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

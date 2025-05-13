@@ -1,0 +1,23 @@
+{
+  "name": "cooking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "serve": "gulp serve"
+  },
+  "keywords": [],
+  "author": "Carlos León Salazar",
+  "license": "ISC",
+  "description": "Ejercicio Integración Django y SASS, Gulp, browser-sync",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "gulp": "^5.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^6.0.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.87.0"
+  }
+}
